@@ -7,8 +7,8 @@
     Case Problem 2
 
     The Math Table Calculator
-    Author: 
-    Date:   
+    Author:
+    Date:
 
     Filename: mt_calc.html
 
@@ -17,9 +17,10 @@
 
    <meta charset="UTF-8" />
    <title>The Math Table Calculator</title>
-   <link href="mt_base.css" rel="stylesheet"  />      
+   <link href="mt_base.css" rel="stylesheet"  />
    <link href="mt_styles.css" rel="stylesheet" />
-  
+   <link rel="stylesheet" href="mt_calc.css" />
+  <script src="mt_calc.js" async></script>
 </head>
 
 <body>
@@ -84,14 +85,14 @@
             </td>
             <td>
                <input type="button" class="calcButton" value="bksp"  />
-            </td>  
+            </td>
             <td>
                <input type="button" class="calcButton" value="prev"  />
-            </td>            
+            </td>
             <td colspan="2" id="decimalTD">
                <label>dec</label>
                <input id="decimals" type="number" min="0" max="9" step="1" value="4" size="1" />
-            </td>         
+            </td>
          </tr>
          <tr>
             <td>
@@ -157,11 +158,11 @@
             </td>
          </tr>
       </table>
-      
+
       <aside>
          <p>Use this calculator to perform basic operations
             and test your work.
-         </p>      
+         </p>
          <ol>
             <li>Press <strong>del</strong> or the <strong>Delete</strong> key on your
                 keyboard to clear the calculator window.</li>
@@ -169,7 +170,7 @@
                 your keyboard to delete the previous character.</li>
             <li>Press <strong>prev</strong> or the <strong>&uarr;</strong> key on
                 your keyboard to insert the previous equation.</li>
-            <li>Change the number of decimals shown by editing the value in the 
+            <li>Change the number of decimals shown by editing the value in the
                <strong>dec</strong> box.</li>
          </ol>
       </aside>
